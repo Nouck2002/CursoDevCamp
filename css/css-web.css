@@ -1,0 +1,196 @@
+/* ==================================
+Hoja estilos Francisco José Albarracín.
+Curso Basque-DevCamp Coding Foundations (Fundación VASS).
+Proyecto: página web propuesta en base a la imagen dada.
+Resolución Monitor 1920x1080
+Fuentes:
+    La fuente del baner intermédio segundo párrafo, también parece diferente si nos vasamos en la tilde, no sé cuáles.
+    Tras revisar la página de CodePen.io, la fuente del menú inferior parece ser: 'Telefon', Sans-Serif; 
+    https://monokrom.no/assets/files/pdf/telefon.pdf
+    Esta fuente es de pago o con registro, por eso he colocado una similar.
+===================================*/
+
+body {
+	background: #434850; 
+	box-shadow: -800px -300px 700px rgb(22, 22, 24, 1) inset; 
+	-webkit-box-shadow: -800px -300px 700px rgb(22 22 24) inset; 
+	-moz-box-shadow: -800px -300px 700px rgb(22, 22, 24, 1) inset;
+    margin: 0px;
+    padding: 0px;
+    color: #cccccc;
+    font-family: 'Lato', Tahoma, Sans-Serif;
+}
+
+/*  Enlaces menú navegación  */
+.content-header {
+    height: 200px;
+    border-color: #bcbcbc;
+    border-top: solid 2px;
+    border-right: solid 2px;
+}
+.header {
+    padding: 10px 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header > .logo img {
+    padding: 20px 30px;
+    height: 50px;
+}
+.header-center {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0px 40px;
+}
+.header-center-menu {
+    font-size: 1.8em;
+    color: white;
+    font-weight: 900;
+    letter-spacing: -1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 625px;
+    flex-wrap: nowrap;
+}
+.header-center-menu-int {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 465px;
+    flex-wrap: nowrap;    
+}
+.header-center-explore {
+    color: #f4E187;
+    font-size: 1.5em;
+}
+.header-center-spark {
+    color: #868ca0;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-top: 2px;
+}
+#header-center-pick {
+    color: #ffffff;
+    margin-left: 20px;
+    font-size: 0.8em;
+}
+.header-right {
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex: auto;
+    align-items: center;
+    margin-right: 15px;   
+}
+.header-right div {
+    color: white;
+    font-weight: 700;
+    padding: 20px 30px;
+    font-size: 1.8em;
+    margin-left: 15px;
+    background: #36383F;
+    border-radius: 5px;
+}
+.header-right > .header-right-lupa {
+    background-color: #000000;
+    color: #868ca0;
+    font-size: 3em;
+    padding: 5px 20px;
+}
+#header-right-pick {
+    color: #4BCE79;
+    margin-left: 10px;
+}
+
+/* Baner zona intermedia*/
+.baner {
+    color: #ffffff;
+    font-family: system-ui;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.baner-left {
+    width: 100%;
+    padding: 0px 90px;
+    font-size: 3.5em;
+    font-weight: 300;
+}
+.baner-left p {
+    margin: 0px 50px 20px 0px;
+}
+.baner-left-tex {
+    font-size: 0.8em;
+    padding-right: 50px;
+}
+.baner-left span {
+    font-weight: 600;
+}
+.baner-left-botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.baner-left-botones-sing {
+    font-family: 'Lato', Tahoma, Sans-Serif;
+    background-color: #4BCE79;
+    padding: 20px 30px;
+    color: #000000;
+    border-radius: 5px;
+    font-weight: 400;
+}
+.baner-left-botones-learn {
+    font-family: 'Lato', Tahoma, Sans-Serif;
+    background-color: #111111;
+    padding: 20px 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+.baner-right {
+    font-size: 1.5em;
+    font-weight: 600;    
+}
+.baner-right > .baner-right-title {
+    margin-left: 15px;
+}
+.baner-right span {
+    color: #78DAFD;
+}
+
+/* Apartado Inferior opciones*/
+.menu-inferior{
+    color: #ffffff;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    justify-items: end;
+}
+.menu-inferior div {
+    background-color: #36383F ;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+    border: solid 2px #868ca0;
+    padding: 20px 0px;
+}
+.menu-inferior span {
+    letter-spacing: -2px;
+    font-weight: 900;
+    font-size: 1.4em;
+}
+
+/* Zona Inferior opcioines*/
+.zona-inferior{
+    background-color: #111111;
+    height: 100px;
+}
