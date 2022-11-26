@@ -110,6 +110,9 @@ body {
     font-size: 3em;
     padding: 5px 20px;
 }
+.header-right > .header-right-lupa a {
+    color: #868ca0;
+}
 #header-right-pick {
     color: #4BCE79;
     margin-left: 10px;
