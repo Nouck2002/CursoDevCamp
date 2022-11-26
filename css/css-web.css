@@ -4,11 +4,15 @@ Curso Basque-DevCamp Coding Foundations (Fundación VASS).
 Proyecto: página web propuesta en base a la imagen dada.
 Resolución Monitor 1920x1080
 Fuentes:
-    La fuente del baner intermedio, segundo párrafo, también parece diferente si nos vasamos en la tilde, no sé cuál es.
+    La fuente del baner intermédio segundo párrafo, también parece diferente si nos vasamos en la tilde, no sé cuáles.
     Tras revisar la página de CodePen.io, la fuente del menú inferior parece ser: 'Telefon', Sans-Serif; 
     https://monokrom.no/assets/files/pdf/telefon.pdf
     Esta fuente es de pago o con registro, por eso he colocado una similar.
 ===================================*/
+a {
+    text-decoration: none;
+    color: white;
+}
 
 body {
 	background: #434850; 
@@ -70,10 +74,12 @@ body {
     font-size: 1.5em;
 }
 .header-center-spark {
-    color: #868ca0;
     font-weight: 700;
     font-size: 0.9em;
     margin-top: 2px;
+}
+.header-center-spark a {
+    color: #868ca0;
 }
 #header-center-pick {
     color: #ffffff;
@@ -143,9 +149,11 @@ body {
     font-family: 'Lato', Tahoma, Sans-Serif;
     background-color: #4BCE79;
     padding: 20px 30px;
-    color: #000000;
     border-radius: 5px;
     font-weight: 400;
+}
+.baner-left-botones-sing a {
+    color: #000000;
 }
 .baner-left-botones-learn {
     font-family: 'Lato', Tahoma, Sans-Serif;
